@@ -346,17 +346,17 @@
     <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="btn-close" type="button" data-modal-close>
+            <button class="modal__btn-close" type="button" data-modal-close>
                 <svg class="close-icon" width="18" height="18" >
                     <use href="./images/icons.svg#close"></use>
                 </svg>
             </button>
-            <form class="form">
-                <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+            <form class="modal-form">
+                <b class="modal-form__action">Оставьте свои данные, мы вам перезвоним</b>
            <!-- <ul class="form-list">
                 <li class="form-item item">--> 
-                    <label for="name" class="form-label">Имя</label>
-                    <div class="form-field">
+                    <label for="name" class="modal-form__label">Имя</label>
+                    <div class="modal-form__field">
                  <input type="text" class="form-input" name="name" id="name" autofocus autocomplete="off">
                  <span class="modal-icon">
                     <svg width="12" height="12"><use href="./images/icons.svg#person"></use>
@@ -365,8 +365,8 @@
                  </div>
                 
              <!--<li class="form-item item">-->
-                    <label for="tel" class="form-label">Телефон</label>
-                    <div class="form-field">
+                    <label for="tel" class="modal-form__label">Телефон</label>
+                    <div class="modal-form__field">
                     <input type="tel" class="form-input" name="tel" id="tel">
                     <span class="modal-icon">
                         <svg width="14" height="14"><use href="./images/icons.svg#phone"></use>
@@ -376,7 +376,7 @@
                 
              <!--<li class="form-item item">-->
                     <label for="mail" class="form-label">Почта</label>
-                    <div class="form-field">
+                    <div class="modal-form__field">
                     <input type="email" class="form-input" name="mail" id="mail">
                     <span class="modal-icon">
                         <svg width="16" height="12"><use href="./images/icons.svg#mail"></use>
@@ -385,20 +385,20 @@
                      </div>
                 
              <!--<li class="form-item item">-->
-                    <label for="comment" class="form-label">Комментарий</label>
-                    <textarea class="form-comment" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                    <label for="comment" class="modal-form__label">Комментарий</label>
+                    <textarea class="modal-form__comment" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
                
             
         <div class="topic-option">
             
-            <label class="check-label">
-                <input type="checkbox" name="policy" class="checkbox-input">
-            <svg class="check-icon" width="16" height="15">
+            <label class="modal-form__check-label">
+                <input type="checkbox" name="policy" class="modal-form__checkbox-input">
+            <svg class="modal-form__check-icon" width="16" height="15">
                 <use href="./images/icons.svg#check"></use>
-            </svg><span class="check-desc">Соглашаюсь с рассылкой и принимаю</span></label>
-            <a class="check-link link" href=""> Условия договора</a>
+            </svg><span class="modal-form__check-desc">Соглашаюсь с рассылкой и принимаю</span></label>
+            <a class="modal-form__check-link link" href=""> Условия договора</a>
         </div>
-            <button class="request-btn" type="submit">Отправить</button>
+            <button class="modal-form__request-btn" type="submit">Отправить</button>
             </form>
         </div>
        
