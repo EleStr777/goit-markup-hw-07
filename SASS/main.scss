@@ -1,1 +1,18 @@
-@import "./variables/variables"
+@import "./variables/variables";
+@import "./base/base";
+@import "./utils/visually-hidden";
+
+@import "./components/container";
+@import "./components/logo";
+@import "./components/header";
+@import "./components/btn";
+
+@import "./components/hero";
+@import "./components/peculiarities";
+@import "./components/performance";
+@import "./components/social-networks";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/modal/modal";
+@import "./components/Portfolio/portfolio";

@@ -1,0 +1,30 @@
+.header-contact__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-contact__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+.header-contact__item {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.header-contact__item:first-child {
+    margin-left: 0;
+}
+.header-contact__link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: var(--main-color);
+    transition: color var(--anim-fast);
+}
+.header-contact__link:hover, .header-contact__link:focus {
+    color: var(--select-color);
+}
+.header-contact {
+    display: flex;
+}

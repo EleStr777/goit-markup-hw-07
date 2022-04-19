@@ -1,0 +1,14 @@
+@import "./reset";
+
+body {
+    color: var(--main-color);
+    background-color: var(--main-background);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    padding-top: 80px;
+}
+
+

@@ -1,0 +1,18 @@
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: var(--main-background);
+    border-bottom: var(--border-header);
+    z-index: 10;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@import "./navigation";
+@import "./header-contact";

@@ -1,0 +1,19 @@
+/*Кнопка*/
+.hero__btn {
+    padding: 10px 32px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    border-radius: 4px;
+    border: 0;
+    border-color: var(--select-color);
+    color: var(--white-text);
+    background-color: var(--select-color);
+    transition: background-color var(--anim-fast), border-color var(--anim-fast);
+}
+.hero__btn:hover, .hero__btn:focus {
+    background-color: var(--activ-btn);
+    border-color: var(--activ-btn);
+}
