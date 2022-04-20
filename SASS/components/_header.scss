@@ -7,12 +7,14 @@
     background: var(--main-background);
     border-bottom: var(--border-header);
     z-index: 10;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
-.header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 @import "./navigation";
 @import "./header-contact";

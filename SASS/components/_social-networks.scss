@@ -17,12 +17,12 @@ margin-right: 10px;
     transition: background-color var(--anim-fast), fill var(--anim-fast);
     /*transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
-}
-.social-networks__link--none {
-    background-color: none;
-    fill: var(--icon);
-}
-.social-networks__link--none:hover, .social-networks__link--none:focus {
-    background-color: var(--select-color);
-    fill: var(--white-text);
+    &--none {
+        background-color: none;
+        fill: var(--icon);
+    }
+    &--none:hover, &--none:focus {
+        background-color: var(--select-color);
+        fill: var(--white-text);
+    }
 }

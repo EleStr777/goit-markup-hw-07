@@ -2,9 +2,7 @@
 .performance {
     text-align: center;  
 }
-.main__performance {
-    padding-bottom: 94px;  
-}
+
 .performance__item:not(:last-child) {
     margin-right: 30px;
 }
@@ -20,6 +18,9 @@
     
     letter-spacing: 0.03em;
     color: var(--main-grey);
+}
+.performance__list {
+    display: flex;
 }
  .performance__item {
     position: relative;
@@ -42,10 +43,4 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-text);
-}
-.performance__img, .project__img {
-    display: block;    
-}
-.performance__list {
-    display: flex;
 }

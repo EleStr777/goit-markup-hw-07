@@ -1,17 +1,11 @@
 /*Постоянные клиенты*/
-.clients__list {
-    display: flex;
-}
 .clients {
     align-items: center;
 }
-.main__clients {
-    padding-bottom: 94px;
-padding-top: 94px;
+&__list {
+    display: flex;
 }
-
-
-.clients__title {
+&__title {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
@@ -21,7 +15,7 @@ padding-top: 94px;
     letter-spacing: 0.03em;
     color: var(--main-grey);
 }
-.clients__item:not(:last-child) {
+&__item:not(:last-child) {
     margin-right: 30px;
 }
 .clients__link {
@@ -35,10 +29,13 @@ padding-top: 94px;
     border-radius: 4px;
     fill: var(--icon);
     transition: border-color var(--anim-fast), fill var(--anim-fast);
-    /*transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
-}
-.clients__link:hover, .clients__link:focus {
-    border-color: var(--select-color);
-    fill: var(--select-color);
-}
+
+    &:hover {
+        border-color: var(--select-color);
+        fill: var(--select-color);
+    }
+    &:focus {
+        border-color: var(--select-color);
+        fill: var(--select-color);
+    }
+    }

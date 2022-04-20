@@ -1,4 +1,8 @@
 /*Навигация*/
+.nav {
+    display: flex;
+    align-items: center;   
+}
 .nav__link {
     display: block;
     padding-top: 32px;
@@ -18,24 +22,18 @@
     letter-spacing: 0.02em;
     color: var(--main-grey);
     transition: color var(--anim-fast);
-    }
-    .nav__link:hover,
-.nav__link:focus {
+
+    &:hover,
+    &:focus {
     color: var(--select-color);
-}
-.nav__list {
-    display: flex;
-}
-.nav {
-    display: flex;
-    align-items: center;   
-}
+    }
+
 /*Подсветка активной страницы*/
-.nav__link--current {
+    &--current {
     color: var(--select-color);
     position: relative;   
    }
-   .nav__link--current::after {
+   &--current::after {
    content: "";
    position: absolute;
    bottom: -1px;
@@ -45,3 +43,9 @@
    border-radius: 2px;
    background-color: var(--select-color);
    }
+}
+    
+.nav__list {
+    display: flex;
+}
+
